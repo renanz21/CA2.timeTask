@@ -20,11 +20,21 @@ static void renanMethod(){
     System.out.println("This is Renan submission");
 }
 
+static void alessandroMethod(){
+    /**
+    *
+    * @author Alessandro Souza - Student Number: 2020365
+    */
+    System.out.println("This is ALessandro's collaboration to the project.");
+    }
+    
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
         renanMethod();
+        alessandroMethod();
+        
     }
     
 }
