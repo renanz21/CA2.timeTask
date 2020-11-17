@@ -38,6 +38,12 @@ static void jeisonMethod(){
         */
         System.out.println("This is Alessandro's collaboration to the project.");
     }
+    static void jeisonMethod(){
+        /**
+        *@author Zhen Hao Ng -  Student Number :2014433
+        */
+        System.out.println("This is Zhen Hao Ng task submission");
+    }    
     
     /**
     *@param args the command line arguments 
