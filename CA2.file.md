@@ -23,7 +23,7 @@ static void renanMethod(){
 static void alessandroMethod(){
     /**
     *
-    * @author Alessandro Souza - Student Number: 2020365
+    * @co-author Alessandro Souza - Student Number: 2020365
     */
     System.out.println("This is ALessandro's collaboration to the project.");
 
