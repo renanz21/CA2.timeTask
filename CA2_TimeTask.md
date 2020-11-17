@@ -15,13 +15,6 @@ package CA2_TimeTask;
 */
 
 public class CA2_TimeTask{
-static void jeisonMethod(){
-        /**
-        *
-        *@author Zhen Hao Ng - Student Number : 2014433
-        */
-        System.out.println("This is Zhen Hao Ng task submission");
-    }
 
     static void renanMethod(){
         /**
