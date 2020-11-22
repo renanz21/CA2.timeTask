@@ -27,10 +27,40 @@ public class CA2_TimeTask{
     static void alessandroMethod(){
         /**
         *
-        *@author Alessandro Souza - Student Number : 2020365
+        *@co-author Alessandro Souza - Student Number : 2020365
         */
         System.out.println("This is Alessandro's collaboration to the project.");
-    }
+    
+
+		Scanner myKB = new Scanner(System.in);
+    
+    int userAge;                                               
+    
+        System.out.println("Hello there, how old are you?");
+        
+        try{                                                    
+        
+    userAge = myKB.nextInt();           
+    
+    if (userAge <18){                   
+        System.out.println("Sorry, you're too young to vote!");
+        }
+    
+    else if (userAge >= 18 && userAge <= 66){                 
+        System.out.println("Are you working hard?");
+        }
+       
+    else {                                                      
+        System.out.println("Enjoy retirement!");
+        }
+    
+        }catch (Exception e){ 
+                    
+        System.out.println("Please, enter only whole numbers!"); 
+        } 
+
+     }
+    
     static void jeisonMethod(){
         /**
         *@author Zhen Hao Ng -  Student Number :2014433
