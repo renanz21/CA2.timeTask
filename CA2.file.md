@@ -73,6 +73,26 @@ static void alessandroMethod(){
         alessandroMethod();
 	lucasMethod();
         
+    
+    }
+    package method;
+
+/**
+ *
+ * @author Adson
+ */
+public class Method {
+    static void 
+    
+    /**
+     * @param args the command line arguments
+     */ System.out.println("My name is Adson, this is my part");
+}
+    public static void main(String[] args) {
+        System.out.println("Part 4");
+        
     }
     
+}
+
 }
