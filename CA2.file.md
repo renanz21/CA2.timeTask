@@ -57,7 +57,7 @@ static void alessandroMethod(){
 
     }
 
-static void alessandroMethod(){
+static void lucasMethod(){
     /**
     *
     * @author Lucas Matteis - Student Number: 2020495
