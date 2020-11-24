@@ -65,9 +65,65 @@ static void alessandroMethod(){
     System.out.println("This is Lucas's commit.");
     }  
   
-    /**
-     * @param args the command line arguments
-     */
+   String nameSurname, gender, name, line = "";
+        int age;
+
+        try {
+            /*
+            Reads file
+            */
+            Scanner scanner = new Scanner(new File("people.txt"));
+            File arquivos[];
+File diretorio = new File("people1.txt");
+arquivos = diretorio.listFiles();
+
+for(int i = 0; i < arquivos.length; i++){
+   //leia arquivos[i];
+}
+
+            /*
+            Reads variables from the file above
+            */
+            nameSurname = scanner.nextLine().toString();                        
+            age = Integer.parseInt(scanner.nextLine());
+            gender = scanner.nextLine().toString();
+
+            
+            /*
+            Verifys gender and writes a line for future file
+            */
+            if (gender.length() > 1) {
+                System.out.println("Error! invalid gender");
+            } else if (gender.equals("M")) {
+                line = "Mr";
+            } else if (gender.equals("F")) {
+                line = "Ms";
+            } else if (gender.equals("T")) {
+                line = "Mx";
+            }
+
+            if (verifyName(nameSurname)) {
+                line +=  getSurname(nameSurname); 
+                line += ",";
+                name = getFirstName(nameSurname);
+                line += getFirstInitial(name)+"\n";   
+            } else {
+                System.out.println("Invalid name");
+            }
+            if (age >= 0 && age <= 100) {
+                line += status(age);
+            } else {
+                System.out.println("Invalid age");
+            }
+            BufferedWriter outputFile = new BufferedWriter(new FileWriter("myOutputFile.txt"));
+            System.out.println(line);
+            outputFile.write(line);
+            outputFile.close();
+            
+        } catch (Exception e) {
+            System.out.println("Fatal error!!!");
+        }
+
     public static void main(String[] args) {
         renanMethod();
         alessandroMethod();
